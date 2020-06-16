@@ -6,6 +6,11 @@ body {
     font-size: 14px;
 }
 
+td {
+    padding-left: 9px;
+    padding-top: 6px;
+}
+
 #middle {
     margin: 4em;
     margin-top: 3%;
@@ -16,13 +21,12 @@ body {
     transition-duration: 1.5s;
 }
 
-p {
-    margin: 0px;
+.right {
+    float: right;
 }
 
-p.centered {
-    width: 100%;
-    text-align: center;
+p {
+    margin: 0px;
 }
 
 h1 {
