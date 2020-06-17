@@ -49,9 +49,15 @@ $(document).ready(function() {
     });
 
 
+    $("body").css("display", "none");
+    $("body").fadeIn(1000, function() {
+        $(this).css("display", "normal");
+    });
+
+
     setInterval(function() {
-        $('#datetime').text(new Date())
-    }, 1000);
+        $('#currentDateTime').text(new Date())
+    }, 100);
 
 
 });
