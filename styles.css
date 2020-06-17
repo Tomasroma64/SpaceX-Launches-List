@@ -8,12 +8,11 @@ body {
 
 td {
     padding-left: 9px;
-    padding-top: 6px;
+    padding-bottom: 6px;
     cursor: pointer;
-    
 }
 
-tr{
+tr {
     color: white;
     transition: 0.2s;
 }
@@ -22,26 +21,21 @@ tr:hover {
     color: indianred;
 }
 
-
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-
 .column {
-  float: left;
-  width: 50%;
-  padding: 10px;
+    float: left;
+    width: 50%;
+    padding: 10px;
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
-
-
-
 
 #middle {
     margin: 4em;
@@ -53,9 +47,19 @@ tr:hover {
     transition-duration: 1.5s;
 }
 
-
 p {
     margin: 0px;
+}
+
+p.centered {
+    width: 100%;
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
@@ -64,7 +68,6 @@ h1 {
     font-size: 50px;
     width: 90%;
 }
-
 
 a {
     color: white;
