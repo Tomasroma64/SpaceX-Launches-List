@@ -47,4 +47,11 @@ $(document).ready(function() {
         }
 
     });
+
+
+    setInterval(function() {
+        $('#datetime').text(new Date())
+    }, 1000);
+
+
 });
