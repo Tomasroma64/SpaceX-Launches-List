@@ -9,6 +9,17 @@ body {
 td {
     padding-left: 9px;
     padding-top: 6px;
+    cursor: pointer;
+    
+}
+
+tr{
+    color: white;
+    transition: 0.2s;
+}
+
+tr:hover {
+    color: indianred;
 }
 
 #middle {
