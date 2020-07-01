@@ -25,6 +25,28 @@ tr:hover {
     box-sizing: border-box;
 }
 
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #555555;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+#updateData {
+    margin-top: 5px;
+}
+
 .column {
     float: left;
     width: 50%;
@@ -75,5 +97,5 @@ a {
 }
 
 a:hover {
-    color: indianred;
+    color: rgb(235, 175, 175);
 }
