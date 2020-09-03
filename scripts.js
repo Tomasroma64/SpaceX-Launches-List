@@ -41,6 +41,11 @@ function populateWithAPIData() {
         console.log(launches_data);
 
         for (let i = 0; i < launches_data.length; i++) {
+
+            // Some launches have already taken place but still on the API
+            if (new Date(launches_data[i].launch_date_unix * 1000).getTime() < new Date().getTime())
+                continue
+
             let tr;
             let tr_id = "record_" + i;
             let detailed_id = "detailed_" + i;
@@ -81,6 +86,8 @@ function populateWithAPIData() {
 
             $(detailed_list).append(detailed);
             $('#' + detailed_id).hide();
+
+
 
         }
 
